@@ -11,4 +11,7 @@ def add_function(first_number,second_number):
 choice = input()
 if choice == 1 :
     print("welcome to add wizard",name)
+    first_num = input("Enter first num ".title())
+    to_int = int(first_num)
+    # print("enter second num".title())
     
