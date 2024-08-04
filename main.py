@@ -6,6 +6,21 @@ print("[1]add\n[2]subtract\n[3]multiply\n[4]divide\n[5]reminder".upper())
 def add_function(first_number,second_number):
     add = first_number + second_number
     return add
+def subtract_function(first_num,second_num):
+    subtract = first_num - second_num
+    return subtract
+def multiply_function(first_num,second_num):
+    multiply = first_num * second_num
+    return multiply
+def divide_function(first_num,second_num):
+    devide = first_num / second_num
+    return devide
+def reminder_function(first_num,second_num):
+    reminder = first_num % second_num
+    return reminder
+
+
+
 
 
 choice = input()
