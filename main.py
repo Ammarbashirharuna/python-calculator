@@ -9,9 +9,11 @@ def add_function(first_number,second_number):
 
 
 choice = input()
-if choice == 1 :
+to_num = int(choice)
+if to_num == 1 :
     print("welcome to add wizard",name)
     first_num = input("Enter first num ".title())
     to_int = int(first_num)
-    # print("enter second num".title())
-    
+    second_num = input("enter second num".title())
+    to_integer = int(second_num)
+    print(f"the sum of your numbers is {add_function(to_int,to_integer)}")
