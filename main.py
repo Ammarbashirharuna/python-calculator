@@ -36,4 +36,6 @@ elif to_num == 2:
     second_num = input("enter second num ".title())
     to_integer = int(second_num)
     print(f"the subtract of your numbers is {subtract_function(to_int,to_integer)}")
+elif to_num == 3:
+    
 
