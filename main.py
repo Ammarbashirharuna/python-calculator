@@ -37,5 +37,11 @@ elif to_num == 2:
     to_integer = int(second_num)
     print(f"the subtract of your numbers is {subtract_function(to_int,to_integer)}")
 elif to_num == 3:
-    
+    print("welcome to divide wizard".title())
+    first_num = input("enter first num")
+    to_int = int(first_num)
+    second_num = input("enter second num")
+    to_integer = int(second_num)
+
+
 
